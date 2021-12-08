@@ -1,0 +1,23 @@
+/* Accessibility */
+.screenreader {
+    position: absolute;
+    top: -999px;
+    left: -999px;
+    &:active,
+    &:focus,
+    &:hover {
+        z-index: 999;
+        top: 0;
+        left: 0;
+    }
+}
+a.screenreader {
+    font-size: 32px;
+    font-size: 2em;
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: #000!important;
+        color: #fff!important;
+    }
+}

@@ -1,0 +1,58 @@
+{% extends "templates/master.njk" %} {% block content %}
+<div class="row">
+    <div class="spc12">
+        <h1>Aenean condimentum justo a metus porttitor</h1>
+        <p class="lead">
+            Donec id consequat dolor, in ultricies nulla. Mauris eget volutpat quam. Nam consequat dui metus, quis pulvinar erat posuere nec. Nunc eleifend id ipsum efficitur pellentesque.
+        </p>
+        <h2>Praesent viverra nisi ut nisi feugiat</h2>
+        <p>
+            <a href="#" data-modal-target="modal1">Open modal 1</a> Phasellus sem odio, posuere sed massa ut, finibus interdum tellus. Suspendisse vestibulum posuere massa. Proin placerat ex ac ipsum pellentesque vulputate. Nam eu pulvinar arcu. Nunc sem enim, facilisis in tincidunt sit amet, vestibulum vitae ex. Etiam dictum odio in diam commodo, a laoreet sem consectetur. Nam pellentesque elit non libero rutrum, et lobortis mi dignissim. Suspendisse potenti.
+        </p>
+    </div>
+    <div class="row">
+        <div class="spc6">
+            <button class="button button--state-select" data-modal-target="modal1">Open Modal 1</button>
+        </div>
+        <div class="spc6">
+            <button class="button button--state-select" data-modal-target="modal2">Open Modal 2</button>
+        </div>
+    </div>
+</div>
+
+    <div id="modal1" class="modal" data-modal="modal1">
+        <div class="row">
+            <div class="spc12">
+                <h3><i class="fa fa-check-circle" aria-hidden="true"></i> Congratulations your Jet2 holiday booking has been confirmed</h3>
+                <p>
+                    Nunc vestibulum, velit ac tincidunt porttitor, eros purus suscipit quam, eu blandit ante libero ac risus. Sed orci massa, feugiat sit amet mi at, dictum rhoncus eros.
+                </p>
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <div class="spc6">
+                <button class="button button--state-cancel closeModal">Cancel</button>
+            </div>
+            <div class="spc6">
+                <button class="button button--state-continue closeModal">Continue</button>
+            </div>
+        </div>
+    </div>
+    <div id="modal2" class="modal" data-modal="modal2">
+        <div class="row">
+            <div class="spc12">
+                <h3>Sorry please try again</h3>
+                <p>
+                    Vivamus sit amet porttitor lectus, a facilisis massa. Mauris tempor ultrices elit. Suspendisse potenti. Proin malesuada blandit urna sed vulputate. Nunc dignissim mi eu porttitor euismod. Nullam faucibus, quam at interdum finibus, justo lectus ultricies velit, quis fringilla ipsum nibh ut sem. Nulla vel feugiat neque. Cras volutpat purus ac lectus viverra venenatis. Etiam dui lacus, suscipit sed turpis sed, vehicula commodo tortor. Fusce blandit diam vitae viverra vehicula.
+                </p>
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <div class="spc12">
+                <button class="button button--state-cancel closeModal">Close</button>
+            </div>
+        </div>
+    </div>
+{% endblock %}

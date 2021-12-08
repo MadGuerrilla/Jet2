@@ -1,0 +1,64 @@
+.row,
+.spc1,
+.spc10,
+.spc11,
+.spc12,
+.spc2,
+.spc3,
+.spc4,
+.spc5,
+.spc6,
+.spc7,
+.spc8,
+.spc9 {
+    float: left;
+    display: block;
+    margin: 0;
+}
+
+*[class^='spc'] {
+    clear: none;
+}
+.spc1 {
+    width: 8.33%;
+}
+.spc2 {
+    width: 16.66%;
+}
+.spc3 {
+    width: 24.99%;
+}
+.spc4 {
+    width: 33.32%;
+}
+.spc5 {
+    width: 41.65%;
+}
+.spc6 {
+    width: 49.98%;
+}
+.spc7 {
+    width: 58.31%;
+}
+.spc8 {
+    width: 66.64%;
+}
+.spc9 {
+    width: 74.97%;
+}
+.spc10 {
+    width: 83.3%;
+}
+.spc11 {
+    width: 91.63%;
+}
+@media only screen and (max-width: 768px) {
+  *[class^='spc'] {
+      width: 100%;
+      clear: both;
+  }
+}
+.row,
+.spc12 {
+    width: 100%;
+}

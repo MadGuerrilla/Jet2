@@ -1,0 +1,36 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 10px 0;
+    padding: 0.625rem 0;
+    font-weight: bold;
+    line-height: 32px;
+    line-height: 2rem;
+}
+p {
+    padding: 0 0 10px;
+    padding: 0 0 0.625rem;
+    line-height: 23px;
+    line-height: 1.4rem;
+}
+h1 {
+    font-size: 32px;
+    font-size: 2rem;
+}
+h2 {
+    font-size: 27px;
+    font-size: 1.7rem;
+}
+h3 {
+    font-size: 24px;
+    font-size: 1.5rem;
+}
+.lead {
+    font-size: 120%;
+}
+.fa-check-circle {
+    color: $green;
+}
